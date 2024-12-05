@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Itim&family=Prata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Itim&family=Noto+Sans+Symbols:wght@100..900&family=Prata&display=swap');
+
+.line {
+    height: 1px;
+    width: 290px;
+    background-color: black;
+    margin-top: 80px;
+    padding-top: 0px;
+    padding: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.section-one {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+    font-family: "Prata", serif;
+    font-size: 72px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.line-two {
+    height: 0.5px;
+    width: 10px;
+    background-color: black;
+    margin-top: 20px;
+}
+
+.section-two {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 10px;
+    font-family: "Noto Sans Symbols", sans-serif;
+    font-size: 20px;
+    font-weight: 100;
+    gap: 10px;
+    text-align: center;
+}
+
+.header {
+    margin-top: 30px;
+    margin-bottom: 0px;
+}
+
+.section-two-text {
+    margin: 0;
+}
+
+.image {
+    width: 429px;
+    height: 329px;
+    background-image: url('images/senior-pic.jpg');
+    background-size: contain;
+    border-radius: 50px;
+}
+
+.image-sustainability {
+    width: 429px;
+    height: 329px;
+    background-image: url('images/house.png');
+    background-size: cover;
+    border-radius: 50px;
+}
+
+.image-cafe-fraise {
+    width: 429px;
+    height: 329px;
+    background-image: url('images/cafe-fraise.png');
+    background-size: cover;
+    border-radius: 50px;
+}
+
+.image-revitalize {
+    width: 429px;
+    height: 329px;
+    background-image: url('images/soda.png');
+    background-size: cover;
+    background-position: center;
+    border-radius: 50px;
+}
+
+.image-serenity {
+    width: 429px;
+    height: 329px;
+    background-image: url('images/serenity-logo.png');
+    background-size: cover;
+    background-position: center;
+    border-radius: 50px;
+}
+
+.section-three-text {
+    font-family: "Noto Sans Symbols", sans-serif;
+    font-size: 15px;
+    font-weight: 100;
+}
+
+.text-div {
+    width: 550px;
+    gap: 23px;
+}
+
+.section-three {
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+    justify-content: center;
+    margin-top: 80px;
+    margin-bottom: 60px;
+}
+
+a {
+    text-decoration-line: none;
+    color: black;
+}
+
+.square {
+    width: 420px;
+    height: 420px;
+    background-color: #F4F4F4;
+    border-radius: 25px;
+}
+
+.square-mod {
+    margin-left: 25px;
+}
+
+.square-mod-two {
+    margin-left: 35px;
+}
+
+.square-row {
+    display: flex;
+    flex-direction: row;
+    gap: 170px;
+    justify-content: center;
+}
+
+.squares {
+    display: flex;
+    flex-direction: column;
+    gap: 65px;
+    justify-content: center;
+    margin-top: 85px;
+    margin-bottom: 90px;
+    margin-right: 100px;
+}
+
+.square-text {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.header-one {
+    margin-left: -320px;
+    font-family: "Prata", serif;
+    font-size: 46px;
+    text-align: center;
+}
+
+.header-two {
+    margin-left: -300px;
+    font-family: "Prata", serif;
+    font-size: 46px;
+    text-align: center;
+}
+
+.header-three {
+    margin-left: -320px;
+    font-family: "Prata", serif;
+    font-size: 46px;
+    text-align: center;
+}
+
+.header-four {
+    margin-left: -340px;
+    font-family: "Prata", serif;
+    font-size: 46px;
+    text-align: center;
+}
+
+.contact-form {
+    background-color: #F4F4F4;
+    width: 1000px;
+    height: 690px;
+    border-radius: 25px;
+    margin-top: 90px;
+    margin-bottom: 95px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.center-form {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.contact-text {
+    font-family: "Prata", serif;
+    font-size: 46px;
+    margin-left: 60px;
+    margin-bottom: 5px;
+}
+
+.rectangle-form {
+    background-color: white;
+    width: 400px;
+    height: 50px;
+    border-radius: 10px;
+}
+
+.rectangle-form-two {
+    background-color: white;
+    width: 870px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+.name-email-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 70px;
+    margin-top: 0px;
+}
+
+.center-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.button-text {
+    background-color: black;
+    color: white;
+    font-family: "Noto Sans Symbols", sans-serif;
+    text-align: center;
+}
